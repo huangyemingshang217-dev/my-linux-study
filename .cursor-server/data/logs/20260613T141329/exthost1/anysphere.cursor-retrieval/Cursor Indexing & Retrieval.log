@@ -1,0 +1,57 @@
+2026-06-13 14:13:37.170 [error] Error getting repo info: Failed to execute git
+2026-06-13 14:13:37.170 [error] Error: Failed to execute git
+	at $rn.<anonymous> (/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/extensions/cursor-retrieval/dist/main.js:2:6979445)
+	at Generator.next (<anonymous>)
+	at a (/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/extensions/cursor-retrieval/dist/main.js:2:6976980)
+2026-06-13 14:13:37.271 [warning] Failed to get symbolic ref: Failed to execute git
+2026-06-13 14:13:37.272 [error] Error getting repo info: Failed to execute git
+2026-06-13 14:13:37.281 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/akiya/.git/HEAD')
+2026-06-13 14:13:37.312 [warning] Failed to get branches from remote: Failed to execute git
+2026-06-13 14:13:37.314 [warning] Failed to get default branch from git config: Failed to execute git
+2026-06-13 14:13:37.404 [info] Using existing keys for an index
+2026-06-13 14:13:37.405 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-06-13 14:13:37.408 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-06-13 14:13:37.408 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-06-13 14:13:37.408 [info] Using existing keys for an index
+2026-06-13 14:13:37.408 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-06-13 14:13:37.463 [info] Starting RepoIndexWatcher for repo: 03607323-f469-4d27-b3d8-111ace0d484a, owner: google-oauth2|user_01KMSCK8SWTV0B9PFHY610H8PV
+2026-06-13 14:13:37.463 [error] We currently do not allow indexing the home directory.
+2026-06-13 14:13:37.463 [info] Indexing job successfully done or aborted.
+2026-06-13 14:22:00.463 [info] multiCodebaseIndexingJob dispose
+2026-06-13 14:22:00.463 [info] Aborting indexing job.
+2026-06-13 14:22:00.463 [error] We currently do not allow indexing the home directory.
+2026-06-13 14:22:00.463 [info] Indexing job successfully done or aborted.
+2026-06-13 14:22:10.139 [error] Error getting git status: Failed to execute git
+2026-06-13 14:29:01.159 [warning] Failed to get symbolic ref: Failed to execute git
+2026-06-13 14:29:01.205 [warning] Failed to get default branch from git config: Failed to execute git
+2026-06-13 14:29:03.711 [error] Error fetching commits in batch: Failed to execute git
+2026-06-13 14:30:23.464 [info] multiCodebaseIndexingJob dispose
+2026-06-13 14:30:23.467 [info] Aborting indexing job.
+2026-06-13 14:30:23.467 [error] We currently do not allow indexing the home directory.
+2026-06-13 14:30:23.467 [info] Indexing job successfully done or aborted.
+2026-06-13 14:30:51.911 [warning] Failed to get symbolic ref: Failed to execute git
+2026-06-13 14:30:51.947 [warning] Failed to get default branch from git config: Failed to execute git
+2026-06-13 14:31:30.422 [error] Error fetching commits in batch: Failed to execute git
+2026-06-13 14:31:37.403 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/akiya/.gitmodules')
+2026-06-13 14:31:41.377 [warning] Failed to get symbolic ref: Failed to execute git
+2026-06-13 14:31:41.421 [warning] Failed to get default branch from git config: Failed to execute git
+2026-06-13 14:31:41.500 [warning] Failed to get symbolic ref: Failed to execute git
+2026-06-13 14:31:41.547 [warning] Failed to get default branch from git config: Failed to execute git
+2026-06-13 14:38:46.468 [info] multiCodebaseIndexingJob dispose
+2026-06-13 14:38:46.470 [info] Aborting indexing job.
+2026-06-13 14:38:46.470 [error] We currently do not allow indexing the home directory.
+2026-06-13 14:38:46.471 [info] Indexing job successfully done or aborted.
+2026-06-13 14:47:09.463 [info] multiCodebaseIndexingJob dispose
+2026-06-13 14:47:09.463 [info] Aborting indexing job.
+2026-06-13 14:47:09.464 [error] We currently do not allow indexing the home directory.
+2026-06-13 14:47:09.464 [info] Indexing job successfully done or aborted.
+2026-06-13 15:12:12.534 [info] multiCodebaseIndexingJob dispose
+2026-06-13 15:12:12.535 [info] Aborting indexing job.
+2026-06-13 15:12:12.536 [error] We currently do not allow indexing the home directory.
+2026-06-13 15:12:12.536 [info] Indexing job successfully done or aborted.
+2026-06-13 15:14:46.955 [warning] Failed to get symbolic ref: Failed to execute git
+2026-06-13 15:14:46.980 [info] Picked default branch from method 1.
+2026-06-13 15:20:35.525 [info] multiCodebaseIndexingJob dispose
+2026-06-13 15:20:35.528 [info] Aborting indexing job.
+2026-06-13 15:20:35.528 [error] We currently do not allow indexing the home directory.
+2026-06-13 15:20:35.529 [info] Indexing job successfully done or aborted.

@@ -1,0 +1,8 @@
+2026-06-13 11:12:31.174 [info] [main] ログ レベル: Info
+2026-06-13 11:12:31.174 [info] [main] Git の検証が検出されました: "/usr/bin/git"
+2026-06-13 11:12:31.188 [info] [main] "/usr/bin/git" から Git "2.53.0" を使用しています
+2026-06-13 11:12:31.189 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-13 11:12:31.189 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-13 11:12:41.206 [info] > git config --global user.name [2ms] 
+2026-06-13 11:12:41.222 [info] > git config --global user.email [4ms] 
+2026-06-13 11:12:41.222 [info] [main] Stored git author name in global state:  <>

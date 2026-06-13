@@ -1,0 +1,23 @@
+2026-06-13 11:18:32.017 [info] rg_diagnostics.startup {"rgPath":"/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/node_modules/@vscode/ripgrep/bin/rg","rgPathExists":true,"rgParentDirExists":true,"platform":"linux","arch":"x64","nodeVersion":"v20.18.2","extensionPath":"/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/extensions/cursor-agent-exec","execPath":"/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/node","remoteName":"wsl","uiKind":"desktop","rgFileSize":5396392,"rgFileMode":"100755","rgIsFile":true,"parentDirContents":["rg"],"grandparentDirExists":true,"grandparentDirContents":["LICENSE","SECURITY.md","bin","build","jsconfig.json","lib","node_modules","package.json"]}
+2026-06-13 11:18:32.017 [info] cursor_agent_exec.startup.workspace_paths {"workspacePathCount":1,"workspacePaths":["/home/akiya"]}
+2026-06-13 11:18:32.460 [info] cursor_agent_exec.startup.activation_latency {"durationMs":462}
+2026-06-13 11:18:33.310 [info] CursorPluginsAgentSkillsService load completed {"durationMs":884,"ruleCount":0,"skillCount":0}
+2026-06-13 11:18:33.316 [info] LocalCursorRulesService load completed {"durationMs":898,"ruleCount":0}
+2026-06-13 11:18:33.463 [info] managed_skills.removed {"skill_id":"clone","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.478 [info] managed_skills.removed {"skill_id":"cursor","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.481 [info] managed_skills.removed {"skill_id":"cursor-blame","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.485 [info] managed_skills.removed {"skill_id":"cursor-sdk","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.496 [info] managed_skills.removed {"skill_id":"goal","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.502 [info] managed_skills.removed {"skill_id":"onboard","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.525 [info] managed_skills.removed {"skill_id":"cursor-review-links","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.542 [info] managed_skills.removed {"skill_id":"social-sharing-copy","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 11:18:33.641 [info] AgentSkillsCursorRulesService load completed {"durationMs":1217,"ruleCount":17,"skillCount":17}
+2026-06-13 11:18:33.642 [info] cursorRulesService.getAllCursorRules
+2026-06-13 13:56:15.301 [info] managed_skills.removed {"skill_id":"clone","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.313 [info] managed_skills.removed {"skill_id":"cursor","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.315 [info] managed_skills.removed {"skill_id":"cursor-blame","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.318 [info] managed_skills.removed {"skill_id":"cursor-sdk","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.319 [info] managed_skills.removed {"skill_id":"goal","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.323 [info] managed_skills.removed {"skill_id":"onboard","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.328 [info] managed_skills.removed {"skill_id":"cursor-review-links","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}
+2026-06-13 13:56:15.330 [info] managed_skills.removed {"skill_id":"social-sharing-copy","reason":"enabled_false","server_enabled":false,"had_manifest_entry":false,"last_synced_ms_ago":null}

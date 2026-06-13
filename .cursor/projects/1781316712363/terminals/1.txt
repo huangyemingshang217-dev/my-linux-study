@@ -1,0 +1,5 @@
+---
+pid: 1071
+cwd: /home/akiya
+---
+akiya@TABLET-4CI34UFI:~$ 

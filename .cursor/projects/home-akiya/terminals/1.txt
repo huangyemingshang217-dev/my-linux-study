@@ -1,0 +1,15 @@
+---
+pid: 688
+cwd: /home/akiya
+---
+akiya@TABLET-4CI34UFI:~$ source ~/.bash_aliases
+bash: /home/akiya/.bash_aliases: No such file or directory
+akiya@TABLET-4CI34UFI:~$ 
+akiya@TABLET-4CI34UFI:~$ source ~/.bash_aliases
+bash: /home/akiya/.bash_aliases: No such file or directory
+akiya@TABLET-4CI34UFI:~$ source ~/.bash_aliases
+akiya@TABLET-4CI34UFI:~$ 
+akiya@TABLET-4CI34UFI:~$ ga
+
+akiya@TABLET-4CI34UFI:~$ 
+akiya@TABLET-4CI34UFI:~$ gsave

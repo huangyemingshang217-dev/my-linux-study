@@ -1,0 +1,13 @@
+2026-06-13 14:13:29.376 [info] 
+
+
+
+
+2026-06-13 14:13:29.390 [info] Extension host agent started.
+2026-06-13 14:13:30.631 [info] [127.0.0.1][8a706c0e][ManagementConnection] New connection established.
+2026-06-13 14:13:30.638 [info] [127.0.0.1][299b6068][ExtensionHostConnection] New connection established.
+2026-06-13 14:13:30.655 [info] Getting extensions control
+2026-06-13 14:13:30.662 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-06-13 14:13:30.869 [info] [127.0.0.1][299b6068][ExtensionHostConnection] <498> Launched Extension Host Process.
+2026-06-13 14:50:18.747 [info] [127.0.0.1][8a706c0e][ManagementConnection] The client has reconnected.
+2026-06-13 15:07:03.184 [info] [127.0.0.1][299b6068][ExtensionHostConnection] The client has reconnected.

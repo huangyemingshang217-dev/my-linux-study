@@ -1,0 +1,60 @@
+2026-06-13 11:12:29.906 [info] Extension host with pid 937 started
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] dirname: /home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/out/vs/workbench/api/node
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] Sandbox helper path: /home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/resources/helpers/cursorsandbox
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] process.resourcesPath: undefined
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] process.execPath: /home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/node
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] ripgrep path for sandboxing: /home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/resources/helpers/rg
+2026-06-13 11:12:29.906 [info] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check...
+2026-06-13 11:12:29.906 [info] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/resources/helpers/cursorsandbox
+2026-06-13 11:12:29.906 [info] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true
+2026-06-13 11:12:29.906 [info] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/resources/helpers/cursorsandbox
+2026-06-13 11:12:29.906 [info] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /mnt/c/Users/akiya/AppData/Local/Programs/cursor
+2026-06-13 11:12:29.906 [info] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight succeeded, sandbox supported!
+2026-06-13 11:12:29.906 [info] [ExtHostShellExec] Sandbox support detected: true, platform: linux, kernelVersion: 6.18.33.1-microsoft-standard-WSL2
+2026-06-13 11:12:29.947 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2026-06-13 11:12:29.948 [info] ExtensionService#_doActivateExtension anysphere.cursor-checkout, startup: true, activationEvent: '*'
+2026-06-13 11:12:29.949 [info] ExtensionService#_doActivateExtension anysphere.cursor-polyfills-remote, startup: true, activationEvent: '*'
+2026-06-13 11:12:29.949 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-06-13 11:12:29.970 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2026-06-13 11:12:30.016 [error] No bundle location found for extension anysphere.cursor-agent-exec
+2026-06-13 11:12:30.016 [error] No bundle location found for extension anysphere.cursor-checkout
+2026-06-13 11:12:30.016 [error] No bundle location found for extension anysphere.cursor-polyfills-remote
+2026-06-13 11:12:30.736 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2026-06-13 11:12:30.737 [info] Extension activated success: anysphere.cursor-checkout — 744ms (code loading: 744ms, activate call: 0ms, activate resolved: 0ms)
+2026-06-13 11:12:30.737 [info] Extension activated success: anysphere.cursor-polyfills-remote — 775ms (code loading: 775ms, activate call: 0ms, activate resolved: 0ms)
+2026-06-13 11:12:30.747 [error] No bundle location found for extension anysphere.cursor-mcp
+2026-06-13 11:12:31.021 [info] Extension activated success: vscode.git-base — 802ms (code loading: 801ms, activate call: 1ms, activate resolved: 0ms)
+2026-06-13 11:12:31.021 [info] Extension activated success: anysphere.cursor-mcp — 284ms (code loading: 282ms, activate call: 0ms, activate resolved: 2ms)
+2026-06-13 11:12:31.021 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-06-13 11:12:31.021 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-13 11:12:31.069 [info] Extension activated success: vscode.github — 34ms (code loading: 32ms, activate call: 1ms, activate resolved: 1ms)
+2026-06-13 11:12:31.132 [info] Extension activated success: anysphere.cursor-agent-exec — 1150ms (code loading: 743ms, activate call: 12ms, activate resolved: 395ms)
+2026-06-13 11:12:31.186 [warning] Using default string since no string found in i18n bundle that has the key: Git local changes (working tree + index)
+2026-06-13 11:12:31.189 [info] Extension activated success: vscode.git — 167ms (code loading: 95ms, activate call: 0ms, activate resolved: 72ms)
+2026-06-13 11:12:31.191 [info] Eager extensions activated
+2026-06-13 11:12:31.192 [info] ExtensionService#_doActivateExtension anysphere.cursor-commits, startup: false, activationEvent: 'onStartupFinished'
+2026-06-13 11:12:31.192 [info] ExtensionService#_doActivateExtension anysphere.cursor-explorer, startup: false, activationEvent: 'onStartupFinished'
+2026-06-13 11:12:31.192 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2026-06-13 11:12:31.192 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-06-13 11:12:31.193 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-13 11:12:31.193 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-13 11:12:31.219 [error] No bundle location found for extension anysphere.cursor-commits
+2026-06-13 11:12:31.219 [error] No bundle location found for extension anysphere.cursor-explorer
+2026-06-13 11:12:31.219 [error] No bundle location found for extension anysphere.cursor-retrieval
+2026-06-13 11:12:31.219 [error] No bundle location found for extension anysphere.cursor-shadow-workspace
+2026-06-13 11:12:31.877 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider registered in ext host
+2026-06-13 11:12:31.881 [info] Extension activated success: anysphere.cursor-explorer — 169ms (code loading: 167ms, activate call: 0ms, activate resolved: 2ms)
+2026-06-13 11:12:31.882 [info] Extension activated success: anysphere.cursor-shadow-workspace — 685ms (code loading: 685ms, activate call: 0ms, activate resolved: 0ms)
+2026-06-13 11:12:31.882 [info] Extension activated success: anysphere.cursor-commits — 169ms (code loading: 165ms, activate call: 0ms, activate resolved: 4ms)
+2026-06-13 11:12:31.884 [info] Extension activated success: anysphere.cursor-retrieval — 629ms (code loading: 622ms, activate call: 2ms, activate resolved: 5ms)
+2026-06-13 11:12:31.907 [info] [ExtHostCursorExplorerProviderService] Main thread provider registration acknowledged
+2026-06-13 11:12:31.918 [info] Extension activated success: vscode.debug-auto-launch — 720ms (code loading: 718ms, activate call: 0ms, activate resolved: 2ms)
+2026-06-13 11:12:31.919 [info] Extension activated success: vscode.merge-conflict — 725ms (code loading: 723ms, activate call: 2ms, activate resolved: 0ms)
+2026-06-13 11:13:45.428 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-13 11:13:45.574 [info] Extension activated success: vscode.emmet — 143ms (code loading: 127ms, activate call: 16ms, activate resolved: 0ms)
+2026-06-13 11:18:20.282 [info] Extension host terminating: received terminate message from renderer
+2026-06-13 11:18:20.294 [info] [ExtHostCursorExplorerProviderService] ExplorerProvider unregistered in ext host
+2026-06-13 11:18:20.313 [error] [ExtHostCursorExplorerProviderService] Main thread provider unregistration failed Canceled
+2026-06-13 11:18:20.314 [info] Extension host with pid 937 exiting with code 0

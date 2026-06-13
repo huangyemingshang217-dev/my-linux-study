@@ -1,0 +1,125 @@
+2026-06-13 14:13:36.188 [info] [main] ログ レベル: Info
+2026-06-13 14:13:36.188 [info] [main] Git の検証が検出されました: "/usr/bin/git"
+2026-06-13 14:13:36.214 [info] [main] "/usr/bin/git" から Git "2.53.0" を使用しています
+2026-06-13 14:13:36.214 [info] [Model][doInitialScan] Initial repository scan started
+2026-06-13 14:13:36.235 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-06-13 14:13:36.235 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-13 14:13:36.236 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-06-13 14:13:46.213 [info] > git config --global user.name [2ms] 
+2026-06-13 14:13:46.225 [info] > git config --global user.email [2ms] 
+2026-06-13 14:13:46.225 [info] [main] Stored git author name in global state:  <>
+2026-06-13 14:16:25.151 [info] > git rev-parse --show-toplevel [5ms] (getRepositoryRoot)
+2026-06-13 14:16:25.151 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-13 14:27:23.127 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-06-13 14:27:23.130 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-13 14:28:44.767 [info] > git rev-parse --show-toplevel [2ms] (getRepositoryRoot)
+2026-06-13 14:28:44.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-06-13 14:29:01.008 [info] > git rev-parse --show-toplevel [3ms] (getRepositoryRoot)
+2026-06-13 14:29:01.041 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [17ms] 
+2026-06-13 14:29:01.079 [info] [Model][openRepository] Opened repository: /home/akiya
+2026-06-13 14:29:01.079 [info] [Model][openRepository] Opened repository (kind): repository
+2026-06-13 14:29:01.097 [info] > git config --get commit.template [3ms] 
+2026-06-13 14:29:01.098 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-13 14:29:01.108 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-13 14:29:01.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms] 
+2026-06-13 14:29:01.109 [warning] [Git][getBranch] No such branch: master
+2026-06-13 14:29:01.132 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2026-06-13 14:29:01.428 [info] > git show --textconv :test.sh [7ms]
+2026-06-13 14:29:01.428 [info] > git ls-files --stage -- test.sh [2ms] 
+2026-06-13 14:29:01.442 [info] > git hash-object -t tree /dev/null [7ms] 
+2026-06-13 14:29:01.443 [warning] [GitFileSystemProvider][stat] File not found - git:/home/akiya/test.sh.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2Ftest.sh%22%2C%22ref%22%3A%22%22%7D
+2026-06-13 14:29:01.444 [info] > git hash-object -t tree /dev/null [4ms] 
+2026-06-13 14:29:01.444 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/akiya/test.sh.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2Ftest.sh%22%2C%22ref%22%3A%22%22%7D
+2026-06-13 14:29:01.998 [info] > git status -z -uall [880ms] (cancelled)
+2026-06-13 14:29:03.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1628ms] 
+2026-06-13 14:29:03.622 [warning] [Git][getBranch] No such branch: master
+2026-06-13 14:29:03.622 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2026-06-13 14:29:03.710 [info] > git check-ignore -v -z --stdin [1702ms]
+2026-06-13 14:29:03.712 [info] > git config --get commit.template [127ms] 
+2026-06-13 14:29:03.719 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-13 14:29:03.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms] 
+2026-06-13 14:29:03.720 [warning] [Git][getBranch] No such branch: master
+2026-06-13 14:29:03.771 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2026-06-13 14:29:04.935 [info] > git status -z -uall [1209ms] (cancelled)
+2026-06-13 14:29:05.444 [info] > git check-ignore -v -z --stdin [1ms]
+2026-06-13 14:29:18.900 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms] 
+2026-06-13 14:29:18.900 [info] fatal: bad revision 'refs/heads/master'
+2026-06-13 14:29:18.901 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2026-06-13 14:29:28.016 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-13 14:29:28.793 [info] > git check-ignore -v -z --stdin [0ms]
+2026-06-13 14:29:31.308 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-13 14:29:33.243 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-13 14:29:35.018 [info] > git check-ignore -v -z --stdin [3ms]
+2026-06-13 14:31:28.859 [info] > git config --get commit.template [1ms] 
+2026-06-13 14:31:28.865 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-13 14:31:28.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms] 
+2026-06-13 14:31:28.866 [warning] [Git][getBranch] No such branch: master
+2026-06-13 14:31:28.880 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2026-06-13 14:31:30.417 [info] > git status -z -uall [1546ms] (cancelled)
+2026-06-13 14:31:30.744 [info] > git show --textconv :test.sh [43ms]
+2026-06-13 14:31:30.745 [info] > git show --textconv HEAD:test.sh [30ms]
+2026-06-13 14:31:30.745 [info] > git ls-files --stage -- test.sh [17ms] 
+2026-06-13 14:31:30.764 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/akiya/test.sh.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2Ftest.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-06-13 14:31:30.767 [info] > git cat-file -s 892ba85cc0137293de2de468804020efa86e1160 [7ms] 
+2026-06-13 14:31:30.769 [info] > git ls-tree -l HEAD -- test.sh [27ms] 
+2026-06-13 14:31:30.769 [info] fatal: Not a valid object name HEAD
+2026-06-13 14:31:30.770 [warning] [GitFileSystemProvider][stat] File not found - git:/home/akiya/test.sh.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2Ftest.sh%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-06-13 14:31:36.031 [info] > git config --get commit.template [4ms] 
+2026-06-13 14:31:36.041 [info] [Git][getRemotes] No remotes found in the git config file
+2026-06-13 14:31:36.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms] 
+2026-06-13 14:31:36.056 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2026-06-13 14:31:37.370 [info] > git status -z -uall [1321ms] (cancelled)
+2026-06-13 14:31:37.384 [info] > git blame --root --incremental 90fa2b23899cc5f763888de748a47673cca82993 -- test.sh [1ms] 
+2026-06-13 14:31:40.861 [info] > git ls-files --stage -- test.sh [1ms] 
+2026-06-13 14:31:40.870 [info] > git cat-file -s 892ba85cc0137293de2de468804020efa86e1160 [1ms] 
+2026-06-13 14:31:40.885 [info] > git show --textconv :test.sh [1ms]
+2026-06-13 14:31:41.275 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 90fa2b23899cc5f763888de748a47673cca82993 -- [3ms] 
+2026-06-13 14:31:41.285 [info] > git var GIT_COMMITTER_IDENT [1ms] 
+2026-06-13 14:31:41.293 [info] > git check-mailmap huangyemingshang217@gmail.com <akiya@TABLET-4CI34UFI.localdomain> 1781328701 +0900 [1ms] 
+2026-06-13 14:31:41.301 [info] > git merge-base --is-ancestor HEAD @{u} [1ms] 
+2026-06-13 14:31:41.301 [info] fatal: no upstream configured for branch 'master'
+2026-06-13 14:34:13.850 [info] > git ls-files --stage -- test.sh [4ms] 
+2026-06-13 14:34:13.868 [info] > git cat-file -s 892ba85cc0137293de2de468804020efa86e1160 [5ms] 
+2026-06-13 14:34:13.891 [info] > git show --textconv :test.sh [3ms]
+2026-06-13 14:34:19.085 [info] > git config --get commit.template [2ms] 
+2026-06-13 14:34:19.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms] 
+2026-06-13 14:34:19.109 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2026-06-13 14:34:20.570 [info] > git status -z -uall [1471ms] (cancelled)
+2026-06-13 14:34:20.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [938ms] 
+2026-06-13 14:34:20.580 [info] > git config --get --local branch.main.vscode-merge-base [2ms] 
+2026-06-13 14:34:20.580 [warning] [Git][config] git config failed: Failed to execute git
+2026-06-13 14:34:20.596 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms] 
+2026-06-13 14:34:20.603 [info] > git ls-files --stage -- test.sh [8ms] 
+2026-06-13 14:34:20.611 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms] 
+2026-06-13 14:34:20.611 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-06-13 14:34:20.611 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-06-13 14:34:20.612 [info] > git cat-file -s 892ba85cc0137293de2de468804020efa86e1160 [2ms] 
+2026-06-13 14:34:20.670 [info] > git show --textconv :test.sh [1ms]
+2026-06-13 14:34:27.553 [info] > git config --get commit.template [9ms] 
+2026-06-13 14:34:27.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms] 
+2026-06-13 14:34:27.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] 
+2026-06-13 14:34:28.565 [info] > git status -z -uall [1004ms] (cancelled)
+2026-06-13 14:34:28.565 [info] > git merge-base refs/heads/main refs/remotes/origin/main [845ms] 
+2026-06-13 14:34:28.571 [info] > git diff --name-status -z --diff-filter=ADMR 90fa2b23899cc5f763888de748a47673cca82993...refs/remotes/origin/main [1ms] 
+2026-06-13 14:34:29.678 [info] > git ls-files --stage -- test.sh [2ms] 
+2026-06-13 14:34:29.689 [info] > git cat-file -s 892ba85cc0137293de2de468804020efa86e1160 [2ms] 
+2026-06-13 14:34:29.708 [info] > git show --textconv :test.sh [3ms]
+2026-06-13 15:22:16.866 [info] > git show --textconv :.bash_aliases.' [26ms]
+2026-06-13 15:22:16.869 [info] > git ls-files --stage -- .bash_aliases.' [11ms] 
+2026-06-13 15:22:16.875 [warning] [GitFileSystemProvider][stat] File not found - git:/home/akiya/.bash_aliases.%27.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2F.bash_aliases.%27%22%2C%22ref%22%3A%22%22%7D
+2026-06-13 15:22:16.880 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/akiya/.bash_aliases.%27.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2F.bash_aliases.%27%22%2C%22ref%22%3A%22%22%7D
+2026-06-13 15:22:16.932 [info] > git check-ignore -v -z --stdin [2ms]
+2026-06-13 15:22:16.936 [info] > git blame --root --incremental 90fa2b23899cc5f763888de748a47673cca82993 -- .bash_aliases.' [27ms] 
+2026-06-13 15:22:16.936 [info] fatal: no such path .bash_aliases.' in 90fa2b23899cc5f763888de748a47673cca82993
+2026-06-13 15:24:17.799 [info] > git show --textconv :.bash_aliases [16ms]
+2026-06-13 15:24:17.800 [info] > git ls-files --stage -- .bash_aliases [4ms] 
+2026-06-13 15:24:17.800 [warning] [GitFileSystemProvider][stat] File not found - git:/home/akiya/.bash_aliases.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2F.bash_aliases%22%2C%22ref%22%3A%22%22%7D
+2026-06-13 15:24:17.801 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/akiya/.bash_aliases.git?%7B%22path%22%3A%22%2Fhome%2Fakiya%2F.bash_aliases%22%2C%22ref%22%3A%22%22%7D
+2026-06-13 15:24:17.821 [info] > git blame --root --incremental 90fa2b23899cc5f763888de748a47673cca82993 -- .bash_aliases [4ms] 
+2026-06-13 15:24:17.821 [info] fatal: no such path .bash_aliases in 90fa2b23899cc5f763888de748a47673cca82993
+2026-06-13 15:24:18.051 [info] > git check-ignore -v -z --stdin [2ms]

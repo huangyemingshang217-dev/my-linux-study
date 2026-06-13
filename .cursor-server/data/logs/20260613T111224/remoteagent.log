@@ -1,0 +1,36 @@
+2026-06-13 11:12:24.591 [info] 
+
+
+
+
+2026-06-13 11:12:24.591 [info] Extension host agent started.
+2026-06-13 11:12:24.601 [info] Started initializing default profile extensions in extensions installation folder. file:///home/akiya/.cursor-server/extensions
+2026-06-13 11:12:24.697 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/akiya/.cursor-server/extensions
+2026-06-13 11:12:26.121 [info] [127.0.0.1][a67cc717][ManagementConnection] New connection established.
+2026-06-13 11:12:26.123 [info] [127.0.0.1][8bf11ed0][ExtensionHostConnection] New connection established.
+2026-06-13 11:12:26.136 [info] Getting extensions control
+2026-06-13 11:12:26.139 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-06-13 11:12:26.161 [info] Installing extensions...
+2026-06-13 11:12:26.256 [info] [127.0.0.1][8bf11ed0][ExtensionHostConnection] <937> Launched Extension Host Process.
+2026-06-13 11:12:27.367 [info] Installing extension 'ms-ceintl.vscode-language-pack-ja'...
+2026-06-13 11:12:27.762 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2026-06-13 11:12:28.237 [info] Installing extension: ms-ceintl.vscode-language-pack-ja {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/akiya/.cursor-server/extensions/extensions.json","external":"file:///home/akiya/.cursor-server/extensions/extensions.json","path":"/home/akiya/.cursor-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"3.7.27","date":"2026-06-10T01:46:16.942Z","vscodeVersion":"1.105.1"}}
+2026-06-13 11:12:28.261 [info] Started downloading extension: ms-ceintl.vscode-language-pack-ja 1.105.0 file:///home/akiya/.cursor-server/data/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-ja-1.105.0-universal
+2026-06-13 11:12:29.128 [info] Extracted extension to file:///home/akiya/.cursor-server/extensions/ms-ceintl.vscode-language-pack-ja-1.105.0-universal: ms-ceintl.vscode-language-pack-ja
+2026-06-13 11:12:29.140 [info] Renamed to /home/akiya/.cursor-server/extensions/ms-ceintl.vscode-language-pack-ja-1.105.0-universal
+2026-06-13 11:12:29.153 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2026-06-13 11:12:29.182 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja file:///home/akiya/.cursor-server/extensions/extensions.json
+2026-06-13 11:12:29.183 [info] Extension 'ms-ceintl.vscode-language-pack-ja' v1.105.0 was successfully installed.
+2026-06-13 11:18:20.278 [info] [127.0.0.1][a67cc717][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-06-13 11:18:20.353 [info] [127.0.0.1][8bf11ed0][ExtensionHostConnection] <937> Extension Host Process exited with code: 0, signal: null.
+2026-06-13 11:18:28.540 [info] [127.0.0.1][028e4259][ManagementConnection] New connection established.
+2026-06-13 11:18:28.547 [info] [127.0.0.1][9fd24c19][ExtensionHostConnection] New connection established.
+2026-06-13 11:18:28.549 [info] Getting extensions control
+2026-06-13 11:18:28.589 [info] [127.0.0.1][9fd24c19][ExtensionHostConnection] <1185> Launched Extension Host Process.
+2026-06-13 11:18:36.472 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-06-13 12:00:38.826 [info] [127.0.0.1][9fd24c19][ExtensionHostConnection] The client has reconnected.
+2026-06-13 12:00:38.884 [info] [127.0.0.1][028e4259][ManagementConnection] The client has reconnected.
+2026-06-13 13:12:34.043 [info] [127.0.0.1][028e4259][ManagementConnection] The client has reconnected.
+2026-06-13 13:12:53.744 [info] [127.0.0.1][9fd24c19][ExtensionHostConnection] The client has reconnected.
+2026-06-13 13:16:01.401 [info] [127.0.0.1][028e4259][ManagementConnection] The client has reconnected.
+2026-06-13 13:51:55.222 [info] [127.0.0.1][9fd24c19][ExtensionHostConnection] The client has reconnected.

@@ -1,0 +1,9 @@
+2026-06-13 11:12:31.976 [error] Error getting repo info: Failed to execute git
+2026-06-13 11:12:31.976 [error] Error: Failed to execute git
+	at $rn.<anonymous> (/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/extensions/cursor-retrieval/dist/main.js:2:6979445)
+	at Generator.next (<anonymous>)
+	at a (/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/extensions/cursor-retrieval/dist/main.js:2:6976980)
+2026-06-13 11:12:32.139 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-06-13 11:12:32.139 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-06-13 11:12:32.142 [error] NoWorkspaceUriError
+2026-06-13 11:12:32.142 [error] NoWorkspaceUriError

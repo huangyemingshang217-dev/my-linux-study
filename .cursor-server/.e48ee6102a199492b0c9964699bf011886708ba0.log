@@ -1,0 +1,27 @@
+Server bound to 127.0.0.1:41467 (IPv4)
+Extension host agent listening on 41467
+
+[14:13:29] 
+
+
+
+
+[14:13:29] Extension host agent started.
+[14:13:30] [127.0.0.1][8a706c0e][ManagementConnection] New connection established.
+[14:13:30] [127.0.0.1][299b6068][ExtensionHostConnection] New connection established.
+[14:13:30] Getting extensions control
+[14:13:30] [CursorProclistService] Config enabled feature (subsample every 10s)
+Generating translation files failed. Error: ENOENT: no such file or directory, open '/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/out/nls.keys.json'
+    at async open (node:internal/fs/promises:641:25)
+    at async Object.readFile (node:internal/fs/promises:1258:14)
+    at async Sy (file:///home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/out/server-main.js:3:16871)
+    at async n2 (file:///home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/out/server-main.js:75:62291)
+    at async ed.start (file:///home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/out/server-main.js:75:66930) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/akiya/.cursor-server/bin/e48ee6102a199492b0c9964699bf011886708ba0/out/nls.keys.json'
+}
+[14:13:30] [127.0.0.1][299b6068][ExtensionHostConnection] <498> Launched Extension Host Process.
+[14:50:18] [127.0.0.1][8a706c0e][ManagementConnection] The client has reconnected.
+[15:07:03] [127.0.0.1][299b6068][ExtensionHostConnection] The client has reconnected.
